@@ -20,6 +20,13 @@ body.ready::before {
 }
 h1 {
     font-size: 60px;
+    color: #0C2B4E;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    color: #0C2B4E;
+    font-size: 35px;
 }
 
 .newStyleTitle {
@@ -35,13 +42,12 @@ h1 {
 .timer {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 15px;
 }
 
 .timerBlockMain {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
     padding: 10px;
 }
 
