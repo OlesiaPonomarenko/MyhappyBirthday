@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+ font-family: 'Dancing Script', cursive;
 }
 
 body::before {
@@ -10,12 +10,26 @@ body::before {
   z-index: -1;
 }
 
+body.ready::before {
+  background: url("./img/already.jpg") center / cover no-repeat;
+}
+
 .heading {
     display: flex;
     justify-content: center;
 }
 h1 {
     font-size: 60px;
+}
+
+.newStyleTitle {
+    color: #B80000;
+    font-size: 75px;
+    letter-spacing: 0.1em;
+    background: linear-gradient(135deg, #e0e0e0, #c0c0c0, #FAEAB1 2000%);
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #B80000;
 }
 
 .timer {
@@ -26,6 +40,7 @@ h1 {
 
 .timerBlockMain {
     display: flex;
+    flex-direction: column;
     margin-bottom: 15px;
     padding: 10px;
 }
