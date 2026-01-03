@@ -1,0 +1,46 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("./img/waiting.jpg") center / cover no-repeat;
+  z-index: -1;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 60px;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.timerBlockMain {
+    display: flex;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.one {
+    margin-left: 10%;
+}
+.two {
+    margin-left: 30%;
+}
+
+.three {
+    margin-left: 10%;
+}
+
+.four {
+    margin-left: 30%;
+}
